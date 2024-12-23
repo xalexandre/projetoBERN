@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "740917405790",
+    "firebase_url": "https://projetobern-default-rtdb.firebaseio.com",
+    "project_id": "projetobern",
+    "storage_bucket": "projetobern.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740917405790:android:1172df2f7471e96bb5accf",
+        "android_client_info": {
+          "package_name": "com.brodt.bern"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWS8IVkeEyLgIVh9ZLbp-IEjaI_yndBjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

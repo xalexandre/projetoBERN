@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "ProjetoBERN",
+    "slug": "ProjetoBERN",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.projetobern"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.projetobern"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "@react-native-firebase/app",
+        {
+          "android_package_name": "com.brodt.bern",
+          "ios_bundle_id": "com.brodt.bern"
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4b170c23-0bec-4c07-8ad0-0b16c857c42c"
+      }
+    }
+  }
+}

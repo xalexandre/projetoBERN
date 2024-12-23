@@ -1,0 +1,42 @@
+
+### 
+POST https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=...
+Content-Type: application/json
+
+{
+    "email": "thi@go.com",
+    "password": "123456",
+    "returnSecureToken": true
+}
+
+
+###
+POST https://t4-amrn-ibeprn-default-rtdb.firebaseio.com/cities.json
+Content-Type: application/json
+
+{
+    "nome": "Salvador",
+    "pais": "Brasil",
+    "atualizado": "2024-11-10T12:00:00Z",
+    "pontos": [
+      {
+        "nome": "Pelourinho",
+        "latitude": -12.971854,
+        "longitude": -38.508743
+      },
+      {
+        "nome": "Elevador Lacerda",
+        "latitude": -12.971111,
+        "longitude": -38.510833
+      }
+    ]
+  }
+
+
+###
+POST https://t4-amrn-ibeprn-default-rtdb.firebaseio.com/users.json
+Content-Type: application/json
+
+{
+  
+}
